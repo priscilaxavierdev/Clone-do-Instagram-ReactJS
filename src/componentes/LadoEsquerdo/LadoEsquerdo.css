@@ -1,0 +1,75 @@
+.LadoEsquerdo {
+    border-right: 1px solid #cacaca;
+    width: 18%;
+    height: 100vh;
+    position: fixed;
+}
+
+.Perfil {
+    display: flex;
+    margin-top: 5px 0px 5px 0px;
+    align-items: center;
+}
+.Perfil img{
+    object-fit: cover;
+    margin-left: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    color:rgb(198, 207, 207);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    height: 60vh;
+    justify-content: space-around;
+}
+.menu-principal span {
+ font-size: 16px;
+ font-weight: 700;
+
+ justify-content: space-around;
+ margin-left: 1rem 1rem;
+}
+.logo img{
+    width: 50%;
+    margin: 2rem 2.5rem;
+}
+
+.menu-principal .icone{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0rem 0.5rem;
+    cursor: pointer;;
+}
+.icone .Perfil :hover{
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: 0.3s;
+    
+}
+.ItemMenu:hover{
+    background: #e5e2e2;
+    border-radius: 8px;
+    padding: 0.5px 0px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.menu-principal li:hover {
+    background-color: rgba(128, 128, 128, 0.056);
+    width: 215%;
+    border-radius: 5%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 70px;
+    position: static;
+    top: 0;
+}
+.menu-principal .Perfil{
+    top: 0;
+}

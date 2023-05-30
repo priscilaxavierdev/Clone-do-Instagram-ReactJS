@@ -1,0 +1,185 @@
+.Post {
+    top:0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 468.8px;
+    min-height: 585px;
+    margin: 24px 0 0 0;
+    margin-left: 50vh;
+}
+
+.ConteudoPost {
+    
+    background: white;
+    width: 468px;
+    height: 468px;
+}
+
+.ConteudoPost img{
+    width: 467px;
+    height: 470px;
+    border-radius: 4px;
+}
+.BarraSuperior {
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ImagemPerfilAutor {
+    border: 2px solid rgb(246, 177, 216);
+    border-radius: 60px;
+    background: #969696;
+    border-radius: 20px;
+    height: 38px;
+    width: 38px;
+    margin: 0 8px 0 8px;
+    transition: all 0.3s;
+}
+.ImagemPerfilAutor :hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.ImagemPerfilAutor img {
+    
+    width: 35px;
+    border-radius: 20px;
+    height: 35px;
+    margin-left: 0vh;
+    
+}
+.ImagemPerfilAutor img:hover {
+    color:rgb(198, 207, 207);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.NomePerfilAutor{
+    display: flex;
+}
+.MenuBarraSuperior {
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.icons-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-1 .icons {
+    display: flex;
+    gap: 15px;
+}
+.icon {
+    font-size: 20px;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+strong {
+    font-size: 13px;
+}
+.foto img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.foto {
+    display: flex;
+    gap: 10px;
+}
+.footer-post{
+    padding:10px 15px;
+}
+.engagement-post{
+    display: flex;
+    justify-content: space-between;
+
+}
+.engagement-post .icons-1{
+    display: flex;
+    gap: 16px;
+    
+
+}
+
+.icon :hover{
+    color:#cacaca;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.like{
+    margin-top: 6px;
+}
+.like span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.legend{
+    margin: 6px 0 3px;
+
+}
+.legend  strong{
+    font-weight: 600;
+    font-size: 15px;
+}
+.time-post time{
+    font-size: 11px;
+    color: rgb(188, 185, 185);
+}
+.commentpt1{
+color: #737373;
+cursor: pointer;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 14px;
+margin: 8px 0;
+}
+
+.comment{
+   width: 95%;
+     display: flex;
+}
+.fake-comment {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+
+    flex: 1;
+    gap: 16px;
+
+
+}
+.fake-comment textarea{
+resize: none;
+border: none;
+overflow: hidden;
+outline: none;
+font-size: 14px;
+width:83%;
+height: 20px;
+text-overflow: ellipsis;
+max-height: 20px;
+}
+.fake-comment input {
+    font-size: 16px;
+}
+
+.comment span{
+    color: #0095f6;
+    font-weight: 500;
+    cursor: pointer;
+    flex:1;
+}

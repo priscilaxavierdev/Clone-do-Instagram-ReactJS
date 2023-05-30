@@ -1,0 +1,8 @@
+.Feed {
+    color:rgb(15, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fafafa;
+}

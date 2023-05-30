@@ -1,0 +1,11 @@
+.Stories {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 20px;
+    height: 150px;
+    margin: 20px 0;
+    padding: 10px;
+    margin-left: 50vh;
+}
