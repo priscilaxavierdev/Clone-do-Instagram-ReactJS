@@ -9,7 +9,7 @@ Nesse exercício vamos construir uma aplicação clone do Instagram utilizando R
 É necessário que tudo pareça com a página principal do Instagram, então temos que ter posts, comentários, botões para curtir e comentar. Não é necessário que nada funcione, mas se quiser, pode.
 
 ## Resultado
-![alt text](src\componentes\Feed\componentes\imgs\clone-insta.png)
+![alt text](clone-insta.png)
 
 # Getting Started with Create React App
 
