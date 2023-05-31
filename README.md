@@ -8,7 +8,7 @@ A questão é que o Instagram não á tão simples assim, principalmente quanto 
 Nesse exercício vamos construir uma aplicação clone do Instagram utilizando React.
 É necessário que tudo pareça com a página principal do Instagram, então temos que ter posts, comentários, botões para curtir e comentar. Não é necessário que nada funcione, mas se quiser, pode.
 
-<center> ## Resultado <center/>
+## Resultado
 ![alt text](clone-insta.png)
 
 # Getting Started with Create React App
